@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Type a keyword to search for an interesting picture.</string>
+    <string name="app_name">Interesting Picture</string>
+    <string name="action_settings">Action</string>
+</resources>

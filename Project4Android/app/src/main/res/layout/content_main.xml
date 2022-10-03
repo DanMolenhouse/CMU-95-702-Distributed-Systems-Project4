@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--dmolenho danmolenhouse -->
+<!--This is the view layout for each item in a list -->
+<!-- mostly based on the interesting picture lab-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="stateAlwaysHidden"
+    tools:context="edu.cmu.ds.project4android.itunesMain">
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/searchTerm"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:text="Enter" />
+
+    <EditText
+        android:id="@+id/searchTerm"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/tvShowList"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Search for a TV Show:"
+        android:inputType="textPersonName"
+        android:text=""
+        android:windowSoftInputMode="stateAlwaysHidden" />
+
+    <ListView
+        android:id="@+id/tvShowList"
+        android:layout_width="405dp"
+        android:layout_height="465dp"
+        android:layout_below="@+id/submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:windowSoftInputMode="stateAlwaysHidden"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchTerm" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchTerm"
+        android:layout_alignStart="@+id/searchTerm"
+        android:layout_alignEnd="@+id/tvShowList"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="9dp"
+        android:text="" />
+
+</RelativeLayout>
