@@ -41,6 +41,14 @@ Diagram of components and interactions:
     - Mobile app network failure, or inability to reach server.
     - Third-party API unavailability.
     - Third-party API invalid data or response.
+7. Implement logging capabilities with the following requirements:
+    - Tracks at least 6 metrics (ie time of request, time to reply, information requested, etc)
+    - Stores data in noSQL database using MongoDB.
+    - Does CRUD ooperations programmatically from a Java program.
+8. Create a web-based HTML operations dashboard that:
+    - Has a unique URL address.
+    - Displays at least three useful and unique operation analytics.
+    - Displays the formatted usage logs.
 
 **Topics/Skills covered:**
 
