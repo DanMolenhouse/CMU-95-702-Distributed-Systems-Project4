@@ -51,7 +51,17 @@ Diagram of components and interactions:
     - Displays the formatted usage logs.
 
 **Topics/Skills covered:**
-
+- Cloud-based web service / Heroku
+- Android mobile applications / Android Studio
+- Servlet programming
+- Error handling
+- HTML web application
+- MVC architecture
+- HTTP
+- RESTful API
+- JSON
+- noSQL Databases / MongoDB / Atlas
+- CRUD operations
 
 **Demonstration of completed tasks:**
 
