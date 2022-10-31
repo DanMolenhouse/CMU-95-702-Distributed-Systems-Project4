@@ -75,14 +75,14 @@ Heres a user entering a search for “Avatar”:
 
 <img width="200" alt="Picture1" src="https://user-images.githubusercontent.com/114946651/199109990-345dfd61-411d-436c-a99c-e5eade66da2b.png">
 
-Heroku implementation: 
+**Heroku implementation:**
 The “search” method in “itunesGet.java” is where the HTTP request is made, with the following URL:
 
-https://pure-shore-63134.herokuapp.com/getTvShows/<searchterm>
+https://pure-shore-63134.herokuapp.com/getTvShows/(searchterm)
     
-<searchterm> is the user input string
+(searchterm) is the user input string
     
-The heroku app is still running and a search term can manually be entered to see the JSON reply from the iTunes API!
+The heroku app is still running and a search term can manually be entered to see the JSON reply from the iTunes API! The code that is deployed to Heroku can be found in the Project1Task1 folder.
 
 This tells the web application to enact it’s “doGet” method with that search term, and uses it to get a Json Reply from the itunes API with the given search term.
 
@@ -97,7 +97,24 @@ Response from Heroku web service displayed in Android application:
     
 <img width="200" alt="Picture1" src="https://user-images.githubusercontent.com/114946651/199110720-69928983-b3bf-496a-90ce-8154573ffa7f.png">
 
+**Information Logging / Analytics Dashboard**
+
+Information logged:
+
+1.)	Device type used to access DB
+2.)	Browser used to access DB
+3.)	Search term
+4.)	Number of results
+5.)	Date and time DB was accessed 
+6.)	Entire JsonReply is stored here
 
 
+Screenshot from MongoDB:
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/114946651/199111269-664271c8-648e-4c2d-b049-978a71734ddf.png">
 
+Screenshot of web-based HTML dashboard:
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/114946651/199111415-542cfed4-ed3f-4a9f-8d3f-ae03bee8e5f9.png">
+
+Three analytics presented: last date the DB was accessed, most recent search query, and a list of all search terms. Note that a better implementation of the "list of all search terms" would only display a single instance of each unique search term, rather than showing multiple instances of the same search term. 
