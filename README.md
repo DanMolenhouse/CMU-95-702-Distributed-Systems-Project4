@@ -16,22 +16,26 @@ Diagram of components and interactions:
 
 **Tasks:**
 1. Choose a 3rd party API and create simple Java application that can make a request & receive a JSON response.
-2. Create a MongoDB database on Atlas and create a Java application that can prompt the user for a string, write the string to the database, read all documents on the database, and print the strings in each document. 
-3. Create Android application that has the following:
+2. Create a MongoDB database on Atlas and create a Java application that can:
+    - Prompt the user for a string
+    - Write the string to the database
+    - Read all documents on the database
+    - Print the strings in each document. 
+4. Create Android application that has the following:
     - Three different types of Views in Layout (ie. TextView, EditText, ImageView, etc)
     - Takes input from user
     - Makes an HTTP request to web service
     - Recieves and parses JSON response
     - Displays new information to user from response
     - Is repeatable (doesn't require restart for another query)
-4. Create the webservice that has the following:
+5. Create the webservice that has the following:
     - Implements an API
     - Receives HTTP request from Android application
     - Executes all business logic appropriate to the applicaiton. This includes fetching JSON information from API, and processing the response.
     - Replies to the Android application with JSON response.
     - Deployed to Heroku.
     - Must use Servlets.
-5. Application and web service should both test for and handle errors in the following:
+6. Application and web service should both test for and handle errors in the following:
     - Invalid input in the Android application.
     - Invalid server-side input (in the case that application input validation did not catch something).
     - Mobile app network failure, or inability to reach server.
