@@ -68,13 +68,16 @@ Diagram of components and interactions:
 For my project, I created an Android application that allows users to search for TV shows. The application makes calls to the iTunes API based on the user input, which for the purposes of this assignment was just TV Show Title. A list of results is then generating, providing the user with the title of the show, the artwork for the show, and the title of the episode. The user can then make another search from the results page, making the application repeatable.
 
 Screenshot of main landing page of app:
+
 <img width="200" alt="Picture1" src="https://user-images.githubusercontent.com/114946651/199109841-8dc4848e-3d8a-4379-a63f-fed237d8403a.png">
 
 Heres a user entering a search for “Avatar”:
+
 <img width="200" alt="Picture1" src="https://user-images.githubusercontent.com/114946651/199109990-345dfd61-411d-436c-a99c-e5eade66da2b.png">
 
 Heroku implementation: 
 The “search” method in “itunesGet.java” is where the HTTP request is made, with the following URL:
+
 https://pure-shore-63134.herokuapp.com/getTvShows/<searchterm>
     
 <searchterm> is the user input string
@@ -83,7 +86,18 @@ The heroku app is still running and a search term can manually be entered to see
 
 This tells the web application to enact it’s “doGet” method with that search term, and uses it to get a Json Reply from the itunes API with the given search term.
 
+JSON Reply Example:
+![Picture1](https://user-images.githubusercontent.com/114946651/199110542-acf6470a-8394-4ce0-8c94-169c10d390dc.png)
+
+Same result in a JSON viewer:
     
+![Picture1](https://user-images.githubusercontent.com/114946651/199110606-62a0e954-cd2f-45ae-b03c-27f46a459bb5.png)
+
+Response from Heroku web service displayed in Android application:
+    
+<img width="200" alt="Picture1" src="https://user-images.githubusercontent.com/114946651/199110720-69928983-b3bf-496a-90ce-8154573ffa7f.png">
+
+
 
 
 
