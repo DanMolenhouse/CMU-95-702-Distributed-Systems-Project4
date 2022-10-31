@@ -101,13 +101,12 @@ Response from Heroku web service displayed in Android application:
 
 Information logged:
 
-1.)	Device type used to access DB
-2.)	Browser used to access DB
-3.)	Search term
-4.)	Number of results
-5.)	Date and time DB was accessed 
-6.)	Entire JsonReply is stored here
-
+1. Device type used to access DB
+2. Browser used to access DB
+3. Search term
+4. Number of results
+5. Date and time DB was accessed
+6. Entire JsonReply is stored here
 
 Screenshot from MongoDB:
 
