@@ -10,7 +10,9 @@
 5. Create HTML webpage dashboard that displays analytics from traffic logs
 
 Diagram of how each component will interact with eachother:
+
 <img width="500" alt="Project4-Diagram" src="https://user-images.githubusercontent.com/114946651/199077118-e97703ee-1123-44d5-a3b6-dfb0369a4862.png">
+
 
 **Tasks:**
 1. 
