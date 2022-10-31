@@ -1,4 +1,4 @@
-# Distributed-Systems-Project4
+# Distributed-Systems-Project4-AndroidApplication
 **Project 4 - Distributed Systems**
 
 **Project Objective:**
@@ -65,4 +65,10 @@ Diagram of components and interactions:
 
 **Demonstration of completed tasks:**
 
+For my project, I created an Android application that allows users to search for TV shows. The application makes calls to the iTunes API based on the user input, which for the purposes of this assignment was just TV Show Title. A list of results is then generating, providing the user with the title of the show, the artwork for the show, and the title of the episode. The user can then make another search from the results page, making the application repeatable.
+
+Screenshot of main landing page of app:
+![image](https://user-images.githubusercontent.com/114946651/199109734-931da2b0-886e-4bad-a3a4-f7bb1c7046b6.png)
+
+  
 
