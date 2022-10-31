@@ -69,7 +69,7 @@ For my project, I created an Android application that allows users to search for
 
 Screenshot of main landing page of app:
 
-<img width="100" alt="Picture1" src="https://user-images.githubusercontent.com/114946651/199109841-8dc4848e-3d8a-4379-a63f-fed237d8403a.png">
+<img width="200" alt="Picture1" src="https://user-images.githubusercontent.com/114946651/199109841-8dc4848e-3d8a-4379-a63f-fed237d8403a.png">
 
   
 
