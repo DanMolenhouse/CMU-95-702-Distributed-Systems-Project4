@@ -4,7 +4,7 @@
 **Project Objective:**
 
 1. Implement a native Android application
-2. Implement a web service deployed to Heroku that executes all business logic of the Android application.
+2. Implement a web service deployed to Heroku using Docker that executes all business logic of the Android application.
 3. Handle error conditions (ie. invalid inputs, network errors, API unavaibility, API invalid responses, etc.)
 4. Log all traffic through webservice and store data in a noSQL database using MongoDB
 5. Create HTML webpage dashboard that displays analytics from traffic logs
