@@ -33,7 +33,7 @@ Diagram of components and interactions:
     - Receives HTTP request from Android application
     - Executes all business logic appropriate to the applicaiton. This includes fetching JSON information from API, and processing the response.
     - Replies to the Android application with JSON response.
-    - Deployed to Heroku.
+    - Deployed to Heroku using Docker. 
     - Must use Servlets.
 6. Application and web service should both test for and handle errors in the following:
     - Invalid input in the Android application.
@@ -51,6 +51,7 @@ Diagram of components and interactions:
     - Displays the formatted usage logs.
 
 **Topics/Skills covered:**
+- Docker
 - Cloud-based web service / Heroku
 - Android mobile applications / Android Studio
 - Servlet programming
