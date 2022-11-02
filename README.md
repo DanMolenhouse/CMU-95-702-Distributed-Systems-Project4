@@ -52,7 +52,7 @@ Diagram of components and interactions:
 
 **Topics/Skills covered:**
 - Docker
-- Cloud-based web service / Heroku
+- Cloud-based application / Heroku
 - Android mobile applications / Android Studio
 - Servlet programming
 - Error handling
