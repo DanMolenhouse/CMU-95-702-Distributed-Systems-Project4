@@ -83,7 +83,7 @@ https://pure-shore-63134.herokuapp.com/getTvShows/(searchterm)
     
 (searchterm) is the user input string
     
-The heroku app is still running and a search term can manually be entered to see the JSON reply from the iTunes API! The code that is deployed to Heroku can be found in the Project1Task1 folder.
+The app is still running on Heroku and a search term can manually be entered to see the JSON reply from the iTunes API! The code that is deployed to Heroku can be found in the Project1Task1 folder. I utilized [the method shown in Lab 3](https://github.com/DanMolenhouse/Distributed-Systems-Lab-3-Docker-Heroku) to create a WAR file of my Android application's logic and deploy it to Heroku using Docker.
 
 This tells the web application to enact it’s “doGet” method with that search term, and uses it to get a Json Reply from the itunes API with the given search term.
 
